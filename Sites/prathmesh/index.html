@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" href="https://krishna.stuffs.me/portfolio/logos/Prathmesh-Soni.png"/>
+        <link rel="icon" href="https://krishna.stuffs.me/portfolio/logos/Prathmesh-Soni.png" type="image/x-icon"/>
+        <link rel="apple-touch-icon" href="https://krishna.stuffs.me/portfolio/logos/Prathmesh-Soni.png"/>
+
+        <!-- Primary Meta Tags -->
+        <meta name="author" content="Prathmesh Soni">
+        <meta name="description" content="Prathmesh Soni – Python Developer specializing in Odoo, web/data scraping, Selenium automation, and AI/ML enthusiast. Explore my projects, skills, and resume.">
+        <meta name="keywords" content="Prathmesh Soni, Python Developer, Odoo, Web Scraping, Selenium, AI, Machine Learning, Portfolio, Django, Flask, AWS, Data Analytics">
+
+        <!-- SEO -->
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://soniprathmesh.com">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Prathmesh Soni – Python Developer Portfolio">
+        <meta property="og:description" content="Python Developer with expertise in Odoo, web/data scraping, Selenium, AI/ML. Check out projects, skills, and resume.">
+        <meta property="og:url" content="https://soniprathmesh.com">
+        <meta property="og:site_name" content="soniprathmesh.com">
+        <meta property="og:image" content="https://krishna.stuffs.me/portfolio/preview/pretty-snap-25-09-2023.png">
+        <meta property="og:image:alt" content="Prathmesh Soni">
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Prathmesh Soni – Python Developer Portfolio">
+        <meta name="twitter:description" content="Odoo, web/data scraping, Selenium automation & AI/ML. Explore my skills and projects.">
+        <meta name="twitter:image" content="https://krishna.stuffs.me/portfolio/preview/pretty-snap-25-09-2023.png">
+        <meta name="twitter:image:alt" content="Prathmesh Soni">
+
+        <!-- Schema.org Person Markup -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Prathmesh Soni",
+                "url": "https://soniprathmesh.com",
+                "image": "https://krishna.stuffs.me/portfolio/preview/pretty-snap-25-09-2023.png",
+                "email": "mailto:connect.prathmeshsoni@gmail.com",
+                "jobTitle": "Python Developer",
+                "description": "Python Developer specializing in Odoo, web/data scraping, Selenium automation, with a BE in CSE (AI/ML). Enthusiastic, fast learner, team player.",
+                "knowsAbout": ["Odoo", "Web Scraping", "Selenium", "AI", "Machine Learning", "Django", "Flask", "AWS", "Data Analytics"],
+                "sameAs": [
+                    "https://github.com/prathmeshsoni",
+                    "https://www.linkedin.com/in/PrathmeshSoni",
+                    "https://soniprathmesh.com",
+                    "https://cse-aiml.tech",
+                    "https://project.stuffs.me"
+                ],
+                "mainEntityOfPage": {
+                    "@type": "WebSite",
+                    "url": "https://soniprathmesh.com"
+                },
+                "potentialAction": {
+                    "@type": "ContactAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "mailto:connect.prathmeshsoni@gmail.com"
+                    },
+                    "actionPlatform": ["http://schema.org/DesktopWebPlatform","http://schema.org/IOSPlatform","http://schema.org/AndroidPlatform"]
+                }
+            }
+        </script>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                overflow: hidden;
+                background-color: #1c2020;
+                position: relative;
+            }
+            #prathmeshsoni {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: none;
+                opacity: 0;
+                transform: translateY(100%);
+                transition: opacity 1s, transform 1s;
+            }
+            .prathmeshsoni {
+                display: none !important;
+            }
+            .loader {
+                margin: 0 auto;
+                width: 60px;
+                height: 50px;
+                text-align: center;
+                font-size: 10px;
+                position: absolute;
+                top: 45%;
+                left: 0;
+                right: 0;
+            }
+            .loader > div {
+                height: 100%;
+                width: 8px;
+                display: inline-block;
+                float: left;
+                margin-left: 2px;
+                animation: delay 0.8s infinite ease-in-out;
+            }
+            .loader .bar1 { background-color: #754fa0; }
+            .loader .bar2 { background-color: #09b7bf; animation-delay: -0.7s; }
+            .loader .bar3 { background-color: #90d36b; animation-delay: -0.6s; }
+            .loader .bar4 { background-color: #f2d40d; animation-delay: -0.5s; }
+            .loader .bar5 { background-color: #fcb12b; animation-delay: -0.4s; }
+            .loader .bar6 { background-color: #ed1b72; animation-delay: -0.3s; }
+            @keyframes delay {
+                0%, 40%, 100% {
+                    transform: scaleY(0.05);
+                }
+                20% {
+                    transform: scaleY(1);
+                }
+            }
+            @keyframes slideOut {
+                0% {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+                100% {
+                    opacity: 0;
+                    transform: translateX(100%);
+                }
+            }
+            @keyframes slideIn {
+                0% {
+                    opacity: 0;
+                    transform: translatY(100%);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="loader" id="loader">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+            <div class="bar6"></div>
+        </div>
+        <iframe src="https://soniprathmesh.com" id="prathmeshsoni"></iframe>
+        <script>
+            let prathmeshsonititle = window.location.pathname;
+            prathmeshsonititle = prathmeshsonititle.replace(/^\//, '').replace(/\/$/, '').replace('/', ' ').replace(/\b\w/g, char => char.toUpperCase());
+            if (prathmeshsonititle === '') {
+                document.title = 'Prathmesh Soni | Portfolio';
+            } else {
+                document.title = `${prathmeshsonititle} | Prathmesh Soni`;
+            }
+            const htmlElement = document.documentElement;
+            const bodyElement = document.body;
+            const wrapwrap = document.getElementById('wrapwrap');
+            wrapwrap.classList.add('prathmeshsoni');
+            document.addEventListener('contextmenu', event => event.preventDefault());
+            const PrathmeshSoniIframe = document.getElementById('prathmeshsoni');
+            const PrathmeshSoniLoader = document.getElementById('loader');
+            const PrathmeshSoniLoaders = document.querySelector('.loader');
+            function NonePrathmesh() {
+                htmlElement.setAttribute('style', 'background-color: unset !important;');
+                bodyElement.setAttribute('style', 'background-color: unset !important;');
+            }
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    PrathmeshSoniLoaders.style.animation = 'slideOut 1s forwards';
+                    setTimeout(() => {
+                        PrathmeshSoniIframe.style.opacity = '1';
+                        PrathmeshSoniIframe.style.transform = 'translateY(0)';
+                    }, 700);
+                    setTimeout(() => {
+                        PrathmeshSoniLoader.classList.add('prathmeshsoni');
+                    }, 1500);
+                    setTimeout(() => {
+                        NonePrathmesh();
+                    }, 2500);
+                }, 800);
+            });
+            fetch('https://cse-aiml.tech/api/soniprathmesh/user-auth-session/')
+            .then(response => response.json())
+            .then(validPaths => {
+                if (Array.isArray(validPaths)) {
+                    if (validPaths.includes(window.location.pathname)) {
+                        if (PrathmeshSoniIframe) {
+                            NonePrathmesh();
+                            wrapwrap.classList.remove('prathmeshsoni');
+                            PrathmeshSoniLoader.classList.add('prathmeshsoni');
+                            PrathmeshSoniIframe.classList.add('prathmeshsoni');
+                        }
+                    }
+                }
+            })
+            .catch(error => {
+                NonePrathmesh();
+            });
+        </script>
+    </body>
+</html>
