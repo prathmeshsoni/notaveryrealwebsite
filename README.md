@@ -1,4 +1,4 @@
-# Not a Very Real Website (navrw.stuffs.me)
+# Not a Very Real Website (navrw.mrsoni.in)
 
 Welcome to **Not a Very Real Website** — the internet's fakest open hosting project!
 
@@ -6,7 +6,7 @@ Welcome to **Not a Very Real Website** — the internet's fakest open hosting pr
 A tiny, tongue-in-cheek static site where anyone can add their own HTML page (like `/yourname`) and pretend to be part of a fake internet community. No backend, no surveillance, no captchas — just HTML and vibes.
 
 ## Live Site
-[https://navrw.stuffs.me](https://navrw.stuffs.me)
+[https://navrw.mrsoni.in](https://navrw.mrsoni.in)
 
 ## How it works
 - The root `index.html` is the homepage, explaining the project and linking to the GitHub repo.
